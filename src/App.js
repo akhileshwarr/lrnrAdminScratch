@@ -32,7 +32,7 @@ if(value.length>2)
   let ucmPromise = new Promise(
    (resolve, reject) => {
   $.ajax({
-      url: "http://localhost:8080/ucmUser?email="+value,
+      url: "http://192.168.0.120:8080/ucmUser?email="+value,
       type: "GET",
       datatype:'JSON',
       success: function(data){
@@ -46,7 +46,7 @@ if(value.length>2)
 }
 );
   $.ajax({
-      url: "http://localhost:8080/lrnrUser?email="+value,
+      url: "http://192.168.0.120:8080/lrnrUser?email="+value,
       type: "GET",
       datatype:'JSON',
       success: function(lrnrUser){
