@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+div.ui.icon.input {
+    width: 100%;
+  }
+
+  #simSearch{
+    width:100%;
+  }
+
+.reactSearchResult {
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    font-size: 1em;
+    padding: .85714286em 1.14285714em;
+    color: rgba(0,0,0,.87);
+    line-height: 1.33;
+    border-bottom: 1px solid rgba(34,36,38,.1);
+}
+
+.reactSearchResult .type {
+    float: right;
+    color: #21ba45;
+}
+.reactSearchResult .name {
+    margin: -.14285714em 0 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: rgba(0,0,0,.85);
+}
+.reactSearchResult .email {
+    margin-top: 0;
+    font-size: .92857143em;
+    color: rgba(0,0,0,.4);
+}
